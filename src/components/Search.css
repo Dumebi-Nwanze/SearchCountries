@@ -1,0 +1,21 @@
+.countryTile {
+  transition: all 0.3s ease-in;
+  padding: 8px;
+  margin-bottom: 2px;
+}
+.countryTile:hover {
+  border-radius: 12px;
+  background-color: rgb(53, 59, 134);
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+.countryList {
+  box-shadow: 2px 2px 40px rgb(53, 59, 134, 0.4);
+  border-radius: 12px;
+  padding: 12px 24px;
+}
+
+.countryList::-webkit-scrollbar {
+  display: none;
+}
